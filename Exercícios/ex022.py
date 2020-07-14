@@ -1,0 +1,5 @@
+nome = str(input('Qual seu nome? '))
+print('TUDO MAIÚSCULO: ', nome.upper())
+print('tudo minúsculo: ', nome.lower())
+print('Quantidade de letras: ', len(nome)-nome.count(' '))
+print('Quantidade de letras do primeiro nome: ', nome.find(' '))
